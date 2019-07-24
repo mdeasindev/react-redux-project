@@ -1,0 +1,102 @@
+a.brand-logo {
+    i{
+        position: relative;
+        top: 5px;
+        margin-right: 6px !important;
+    }
+}
+
+nav ul a.active {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.all-posts{
+    column-count: 3;
+    column-gap: 10px;
+    position: relative;
+    padding: 30px 0;
+    .preloader-custom {
+        position: absolute;
+        height: 82px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+    }
+    .post-box{
+        break-inside: avoid;
+        padding: 5px;
+        .card{
+            margin-bottom: 4px;
+        }
+    }
+}
+
+.pagination-container {
+    text-align: center;
+    padding: 20px 0;
+    
+    a.active{
+        background-color: #ee6e73;
+        color: #fff
+    }
+}
+
+.single-post {
+    padding: 50px 0;
+    padding-bottom: 100px;
+}
+.post-navigation {
+    padding-top: 30px;
+}
+
+.popup {
+    background-color:rgba(128, 0, 128, .2);
+    border: 2px solid purple;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 9;
+    transform: all .4s;
+    .popup-box {
+        width: 60%;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+        i.close-icon{
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        textarea{
+            resize: auto;
+            min-height: 80px;
+        }
+        .input-field>label {
+            position: static;
+            h5 {
+                margin: 0
+            }
+        }
+    }
+}
+.card-action {
+    i{
+        margin-left: 15px;
+    }
+}
+footer.page-footer {
+    padding: 30px 0;
+    margin-top: 50px;
+    .row{
+        margin: 0;
+    }
+    
+}
