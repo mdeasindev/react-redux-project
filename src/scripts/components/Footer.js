@@ -12,7 +12,7 @@ const Footer = () => {
                     </div>
                     <div className="col s6">
                         <div className="footer-nav right-align">
-                            <a target="_blank" href="https://github.com/mdeasindev" className="btn purple darken-4"><strong>github</strong></a>
+                            <a target="_blank" href="https://github.com/mdeasindev/react-redux-project" className="btn purple darken-4"><strong>github</strong></a>
                         </div>
                     </div>
                 </div>
