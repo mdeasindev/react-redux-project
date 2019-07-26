@@ -13,7 +13,7 @@ const PostSingle = (props) => {
             {props.popup && props.popup.post_id ? <Popup popup={props.popup} /> : ''}
 
             <div className="row">
-                <div className="col s8 offset-s2">
+                <div className="col s12 m8 offset-m2">
                     <Content history={ props.history } posts={props.posts} post_id={post_id} />
                     <Navigation history={ props.history } posts={props.posts} post_id={post_id} />
                 </div>

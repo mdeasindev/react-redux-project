@@ -33,11 +33,26 @@ module.exports = {
             },
             {
                 test: /\.html$/,
-                use: ['html-loader']
+                use: {
+                    loader: "html-loader",
+                    options: {
+                        minimize: true
+                    }
+                }
             },
             {
                 test: /\.scss$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                          sourceMap: 'inline'
+                        }
+                    },
+                    'sass-loader'
+                ]
             }
 
         ]

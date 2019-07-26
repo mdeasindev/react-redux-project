@@ -100,3 +100,43 @@ footer.page-footer {
     }
     
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .all-posts {
+        column-count: 1;
+        column-gap: 0px;
+        position: relative;
+    }
+    .pagination li a {
+        font-size: 1rem;
+        padding: 0 7px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .footer-nav {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .popup .popup-box {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    nav ul a {
+        padding: 0 8px;
+    }
+    .pagination li i {
+        font-size: 1.1rem;
+        position: relative;
+        top: 3px;
+    }
+    
+  }
